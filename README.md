@@ -1,11 +1,9 @@
-[![](https://jitpack.io/v/kuamanet/android-document-scanner.svg)](https://jitpack.io/#kuamanet/android-document-scanner)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Android Document Scanner
-Contains an activity that allows the user to scan a A4 paper with the smartphone camera.
-It is based on CameraX and OpenCV
+# Scanner of Documents
+Based on OpenCV systems
 
 ### Installation
-Add it in your root `build.gradle` at the end of repositories:
+Add it in your root `settings.gradle` at the end of repositories:
 ```groovy
 allprojects {
 	repositories {
@@ -46,12 +44,3 @@ class ScannerActivity : BaseScannerActivity() {
 }
 
 ```
-
-### Preview
-Detect document
-
-![detect](https://github.com/kuamanet/android-document-scanner/blob/master/images/detect.jpg)
-
-Crop document
-
-![crop](https://github.com/kuamanet/android-document-scanner/blob/master/images/crop.jpg)
